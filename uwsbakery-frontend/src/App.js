@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from './components/Header'
+import Form from './components/Form'
 
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="main-container">
       hello world
       <Header />
+      <Form />
       </div>
     );
   }
